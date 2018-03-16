@@ -1,0 +1,12 @@
+<fontFamilies>
+    <fontFamily name="TH SarabunPSK">
+        <normal>fonts/THSARABUN.TTF</normal>
+        <pdfEncoding>UTF-8</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+    </fontFamily>
+    <fontFamily name="Tahoma">
+        <normal>fonts/TAHOMA_0.TTF</normal>
+        <pdfEncoding>UTF-8</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+    </fontFamily>
+</fontFamilies>

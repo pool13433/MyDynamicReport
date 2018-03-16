@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperPrint xmlns="http://jasperreports.sourceforge.net/jasperreports/print" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/print http://jasperreports.sourceforge.net/xsd/jasperprint.xsd" name="Report" pageWidth="595" pageHeight="842" topMargin="10" leftMargin="10" bottomMargin="10" rightMargin="10" locale="en_US" timezone="Asia/Bangkok">
+	<property name="net.sf.jasperreports.export.xml.start.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.end.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.page.count" value="1"/>
+	<origin band="title"/>
+	<origin band="columnHeader"/>
+	<origin band="detail"/>
+	<origin band="pageFooter"/>
+	<style name="style_20_" forecolor="#000000" fontName="SansSerif" fontSize="10">
+		<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2"/>
+	</style>
+	<style name="style_24_" style="style_20_">
+		<box rightPadding="0">
+			<rightPen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="style_27_" style="style_20_">
+		<box leftPadding="0">
+			<leftPen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="style_29_" hTextAlign="Left" fontName="SansSerif" fontSize="10">
+		<box>
+			<topPen lineWidth="1.0" lineStyle="Solid"/>
+			<leftPen lineWidth="1.0" lineStyle="Solid"/>
+			<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+			<rightPen lineWidth="1.0" lineStyle="Solid"/>
+		</box>
+	</style>
+	<style name="style_31_" hTextAlign="Left" fontName="SansSerif" fontSize="10">
+		<box>
+			<topPen lineWidth="1.0" lineStyle="Solid"/>
+			<leftPen lineWidth="1.0" lineStyle="Solid"/>
+			<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+			<rightPen lineWidth="1.0" lineStyle="Solid"/>
+		</box>
+	</style>
+	<style name="style_32_" hTextAlign="Left" fontName="SansSerif" fontSize="10">
+		<box>
+			<topPen lineWidth="1.0" lineStyle="Solid"/>
+			<leftPen lineWidth="1.0" lineStyle="Solid"/>
+			<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+			<rightPen lineWidth="1.0" lineStyle="Solid"/>
+		</box>
+	</style>
+	<style name="style_34_" hTextAlign="Left" fontName="SansSerif" fontSize="10">
+		<box>
+			<topPen lineWidth="1.0" lineStyle="Solid"/>
+			<leftPen lineWidth="1.0" lineStyle="Solid"/>
+			<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+			<rightPen lineWidth="1.0" lineStyle="Solid"/>
+		</box>
+	</style>
+	<style name="style_35_" hTextAlign="Left" fontName="SansSerif" fontSize="10">
+		<box>
+			<topPen lineWidth="1.0" lineStyle="Solid"/>
+			<leftPen lineWidth="1.0" lineStyle="Solid"/>
+			<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+			<rightPen lineWidth="1.0" lineStyle="Solid"/>
+		</box>
+	</style>
+	<style name="style_37_" hTextAlign="Left" fontName="SansSerif" fontSize="10">
+		<box>
+			<topPen lineWidth="1.0" lineStyle="Solid"/>
+			<leftPen lineWidth="1.0" lineStyle="Solid"/>
+			<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+			<rightPen lineWidth="1.0" lineStyle="Solid"/>
+		</box>
+	</style>
+	<style name="style_38_" hTextAlign="Left" fontName="SansSerif" fontSize="10">
+		<box>
+			<topPen lineWidth="1.0" lineStyle="Solid"/>
+			<leftPen lineWidth="1.0" lineStyle="Solid"/>
+			<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+			<rightPen lineWidth="1.0" lineStyle="Solid"/>
+		</box>
+	</style>
+	<style name="style_40_" hTextAlign="Left" fontName="SansSerif" fontSize="10">
+		<box>
+			<topPen lineWidth="1.0" lineStyle="Solid"/>
+			<leftPen lineWidth="1.0" lineStyle="Solid"/>
+			<bottomPen lineWidth="1.0" lineStyle="Solid"/>
+			<rightPen lineWidth="1.0" lineStyle="Solid"/>
+		</box>
+	</style>
+	<page>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="6c7cd838-ea54-46c5-a53a-a4e1a0dea057" key="title.textField1" style="style_20_" x="10" y="10" width="575" height="17" origin="0" srcId="1" printId="1"/>
+			<textContent><![CDATA[PoolsawatBlogs]]></textContent>
+		</text>
+		<frame>
+			<reportElement uuid="ca13d0b8-ac6c-4420-90f0-aa75659a08b8" key="columnHeader.list1" x="10" y="27" width="575" height="13" origin="1" srcId="2" printId="1"/>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="8a99d3f9-e44f-4b74-803d-c83191ed1173" key="columnHeader.column_id.title1" style="style_29_" x="0" y="0" width="143" height="13" origin="1" srcId="3" printId="1"/>
+				<textContent><![CDATA[PostId]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="42981139-cebd-401b-b195-32a2fb5acfcc" key="columnHeader.column_title.title1" style="style_32_" x="143" y="0" width="144" height="13" origin="1" srcId="4" printId="1"/>
+				<textContent><![CDATA[PostTitle]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="cb42ad0c-6d58-49f7-a59d-f10f84d884dd" key="columnHeader.column_author.title1" style="style_35_" x="287" y="0" width="144" height="13" origin="1" srcId="5" printId="1"/>
+				<textContent><![CDATA[PostAuthor]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="f862762c-b1c1-4c83-8ad7-c69f90f5e2bf" key="columnHeader.column_public_date.title1" style="style_38_" x="431" y="0" width="144" height="13" origin="1" srcId="6" printId="1"/>
+				<textContent><![CDATA[PostPublicDate]]></textContent>
+			</text>
+		</frame>
+		<frame>
+			<reportElement uuid="bf2b910b-26d6-4628-9a42-a47a42b1ddc2" key="detail.list1" x="10" y="40" width="575" height="25" origin="2" srcId="7" printId="1"/>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer" pattern="#,##0">
+				<reportElement uuid="d95f15b3-fd98-4e39-ab76-7e90d11708e5" key="detail.column_id1" style="style_31_" x="0" y="0" width="143" height="25" origin="2" srcId="8" printId="1"/>
+				<textContent><![CDATA[1,215]]></textContent>
+			</text>
+			<text textHeight="25.15625" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="81d2928d-fee9-4321-9e9e-cfd973715398" key="detail.column_title1" style="style_34_" x="143" y="0" width="144" height="25" origin="2" srcId="9" printId="1"/>
+				<textContent><![CDATA[Quartz Scheduler มันคืออะไร การใช้งานเบื้องต้น]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="54f46483-64c4-4135-98b9-7d3640a2d92c" key="detail.column_author1" style="style_37_" x="287" y="0" width="144" height="25" origin="2" srcId="10" printId="1"/>
+				<textContent><![CDATA[admin]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="MM/dd/yyyy">
+				<reportElement uuid="125c3b76-9488-4fcd-8154-bb2fbf9c5f8b" key="detail.column_public_date1" style="style_40_" x="431" y="0" width="144" height="25" origin="2" srcId="11" printId="1"/>
+				<textContent><![CDATA[03/16/2018]]></textContent>
+			</text>
+		</frame>
+		<frame>
+			<reportElement uuid="bf2b910b-26d6-4628-9a42-a47a42b1ddc2" key="detail.list1" x="10" y="65" width="575" height="25" origin="2" srcId="7" printId="2"/>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer" pattern="#,##0">
+				<reportElement uuid="d95f15b3-fd98-4e39-ab76-7e90d11708e5" key="detail.column_id1" style="style_31_" x="0" y="0" width="143" height="25" origin="2" srcId="8" printId="2"/>
+				<textContent><![CDATA[1,150]]></textContent>
+			</text>
+			<text textHeight="25.15625" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="81d2928d-fee9-4321-9e9e-cfd973715398" key="detail.column_title1" style="style_34_" x="143" y="0" width="144" height="25" origin="2" srcId="9" printId="2"/>
+				<textContent><![CDATA[Gson Open Source Library สำหรับจัดการ JSON Formatter]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="54f46483-64c4-4135-98b9-7d3640a2d92c" key="detail.column_author1" style="style_37_" x="287" y="0" width="144" height="25" origin="2" srcId="10" printId="2"/>
+				<textContent><![CDATA[admin]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="MM/dd/yyyy">
+				<reportElement uuid="125c3b76-9488-4fcd-8154-bb2fbf9c5f8b" key="detail.column_public_date1" style="style_40_" x="431" y="0" width="144" height="25" origin="2" srcId="11" printId="2"/>
+				<textContent><![CDATA[03/16/2018]]></textContent>
+			</text>
+		</frame>
+		<frame>
+			<reportElement uuid="bf2b910b-26d6-4628-9a42-a47a42b1ddc2" key="detail.list1" x="10" y="90" width="575" height="25" origin="2" srcId="7" printId="3"/>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer" pattern="#,##0">
+				<reportElement uuid="d95f15b3-fd98-4e39-ab76-7e90d11708e5" key="detail.column_id1" style="style_31_" x="0" y="0" width="143" height="25" origin="2" srcId="8" printId="3"/>
+				<textContent><![CDATA[1,132]]></textContent>
+			</text>
+			<text textHeight="25.15625" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="81d2928d-fee9-4321-9e9e-cfd973715398" key="detail.column_title1" style="style_34_" x="143" y="0" width="144" height="25" origin="2" srcId="9" printId="3"/>
+				<textContent><![CDATA[สร้าง Spring MVC 4 ร่วมกับ Apache Tiles 3]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="54f46483-64c4-4135-98b9-7d3640a2d92c" key="detail.column_author1" style="style_37_" x="287" y="0" width="144" height="25" origin="2" srcId="10" printId="3"/>
+				<textContent><![CDATA[admin]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="MM/dd/yyyy">
+				<reportElement uuid="125c3b76-9488-4fcd-8154-bb2fbf9c5f8b" key="detail.column_public_date1" style="style_40_" x="431" y="0" width="144" height="25" origin="2" srcId="11" printId="3"/>
+				<textContent><![CDATA[03/16/2018]]></textContent>
+			</text>
+		</frame>
+		<frame>
+			<reportElement uuid="bf2b910b-26d6-4628-9a42-a47a42b1ddc2" key="detail.list1" x="10" y="115" width="575" height="13" origin="2" srcId="7" printId="4"/>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer" pattern="#,##0">
+				<reportElement uuid="d95f15b3-fd98-4e39-ab76-7e90d11708e5" key="detail.column_id1" style="style_31_" x="0" y="0" width="143" height="13" origin="2" srcId="8" printId="4"/>
+				<textContent><![CDATA[1,099]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="81d2928d-fee9-4321-9e9e-cfd973715398" key="detail.column_title1" style="style_34_" x="143" y="0" width="144" height="13" origin="2" srcId="9" printId="4"/>
+				<textContent><![CDATA[[ES6] Promise คืออะไร]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="54f46483-64c4-4135-98b9-7d3640a2d92c" key="detail.column_author1" style="style_37_" x="287" y="0" width="144" height="13" origin="2" srcId="10" printId="4"/>
+				<textContent><![CDATA[admin]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="MM/dd/yyyy">
+				<reportElement uuid="125c3b76-9488-4fcd-8154-bb2fbf9c5f8b" key="detail.column_public_date1" style="style_40_" x="431" y="0" width="144" height="13" origin="2" srcId="11" printId="4"/>
+				<textContent><![CDATA[03/16/2018]]></textContent>
+			</text>
+		</frame>
+		<frame>
+			<reportElement uuid="bf2b910b-26d6-4628-9a42-a47a42b1ddc2" key="detail.list1" x="10" y="128" width="575" height="25" origin="2" srcId="7" printId="5"/>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer" pattern="#,##0">
+				<reportElement uuid="d95f15b3-fd98-4e39-ab76-7e90d11708e5" key="detail.column_id1" style="style_31_" x="0" y="0" width="143" height="25" origin="2" srcId="8" printId="5"/>
+				<textContent><![CDATA[1,072]]></textContent>
+			</text>
+			<text textHeight="25.15625" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="81d2928d-fee9-4321-9e9e-cfd973715398" key="detail.column_title1" style="style_34_" x="143" y="0" width="144" height="25" origin="2" srcId="9" printId="5"/>
+				<textContent><![CDATA[ประสบการณ์ทำเว็บไซต์ให้ปลอดภัยด้วย HTTPS ไม่ยากอย่างที่คิด]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="54f46483-64c4-4135-98b9-7d3640a2d92c" key="detail.column_author1" style="style_37_" x="287" y="0" width="144" height="25" origin="2" srcId="10" printId="5"/>
+				<textContent><![CDATA[admin]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="MM/dd/yyyy">
+				<reportElement uuid="125c3b76-9488-4fcd-8154-bb2fbf9c5f8b" key="detail.column_public_date1" style="style_40_" x="431" y="0" width="144" height="25" origin="2" srcId="11" printId="5"/>
+				<textContent><![CDATA[03/16/2018]]></textContent>
+			</text>
+		</frame>
+		<frame>
+			<reportElement uuid="bf2b910b-26d6-4628-9a42-a47a42b1ddc2" key="detail.list1" x="10" y="153" width="575" height="25" origin="2" srcId="7" printId="6"/>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer" pattern="#,##0">
+				<reportElement uuid="d95f15b3-fd98-4e39-ab76-7e90d11708e5" key="detail.column_id1" style="style_31_" x="0" y="0" width="143" height="25" origin="2" srcId="8" printId="6"/>
+				<textContent><![CDATA[1,025]]></textContent>
+			</text>
+			<text textHeight="25.15625" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="81d2928d-fee9-4321-9e9e-cfd973715398" key="detail.column_title1" style="style_34_" x="143" y="0" width="144" height="25" origin="2" srcId="9" printId="6"/>
+				<textContent><![CDATA[เล่าประสบการณ์แข่งขัน Hackathon ครั้งแรกให้ชีวิต]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="54f46483-64c4-4135-98b9-7d3640a2d92c" key="detail.column_author1" style="style_37_" x="287" y="0" width="144" height="25" origin="2" srcId="10" printId="6"/>
+				<textContent><![CDATA[admin]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="MM/dd/yyyy">
+				<reportElement uuid="125c3b76-9488-4fcd-8154-bb2fbf9c5f8b" key="detail.column_public_date1" style="style_40_" x="431" y="0" width="144" height="25" origin="2" srcId="11" printId="6"/>
+				<textContent><![CDATA[03/16/2018]]></textContent>
+			</text>
+		</frame>
+		<frame>
+			<reportElement uuid="bf2b910b-26d6-4628-9a42-a47a42b1ddc2" key="detail.list1" x="10" y="178" width="575" height="37" origin="2" srcId="7" printId="7"/>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer" pattern="#,##0">
+				<reportElement uuid="d95f15b3-fd98-4e39-ab76-7e90d11708e5" key="detail.column_id1" style="style_31_" x="0" y="0" width="143" height="37" origin="2" srcId="8" printId="7"/>
+				<textContent><![CDATA[1,002]]></textContent>
+			</text>
+			<text textHeight="37.734375" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="81d2928d-fee9-4321-9e9e-cfd973715398" key="detail.column_title1" style="style_34_" x="143" y="0" width="144" height="37" origin="2" srcId="9" printId="7"/>
+				<textContent><![CDATA[สรุปสิ่งที่ได้รับจากงาน Cloud Functions for Firebase and Next Generation of Web]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="54f46483-64c4-4135-98b9-7d3640a2d92c" key="detail.column_author1" style="style_37_" x="287" y="0" width="144" height="37" origin="2" srcId="10" printId="7"/>
+				<textContent><![CDATA[admin]]></textContent>
+			</text>
+			<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.util.Date" pattern="MM/dd/yyyy">
+				<reportElement uuid="125c3b76-9488-4fcd-8154-bb2fbf9c5f8b" key="detail.column_public_date1" style="style_40_" x="431" y="0" width="144" height="37" origin="2" srcId="11" printId="7"/>
+				<textContent><![CDATA[03/16/2018]]></textContent>
+			</text>
+		</frame>
+		<frame>
+			<reportElement uuid="ec9e9a86-77ec-4df3-8b9b-d796d882a38e" key="pageFooter.list1" x="10" y="815" width="575" height="17" origin="3" srcId="12" printId="1"/>
+			<text textAlignment="Right" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="ce035a8d-59e8-492b-8299-53932ca7a81e" key="pageFooter.textField1" style="style_24_" x="0" y="0" width="287" height="17" origin="3" srcId="13" printId="1"/>
+				<textContent><![CDATA[1]]></textContent>
+			</text>
+			<text textAlignment="Left" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+				<reportElement uuid="a4457d5e-1370-4c4f-bbd7-cda5f99ddc66" key="pageFooter.textField2" style="style_27_" x="287" y="0" width="288" height="17" origin="3" srcId="14" printId="1"/>
+				<textContent><![CDATA[ of 1]]></textContent>
+			</text>
+		</frame>
+	</page>
+</jasperPrint>
